@@ -1,30 +1,30 @@
-## 合成大西瓜
+## Synthetic_GPSE
 
-**声明，本项目仅帮助大家学习技术及娱乐，切勿将修改后的网站大规模传播及商用，以避免侵权！**
+**It is stated that this project only helps everyone learn technology and entertainment, and do not spread and commercialize the modified website on a large scale to avoid infringement! **
 
-### 本地启动
+### Local Start
 
-1. 安装 serve 工具：
+1. Install serve ：
 
     ```bash
     npm i -g serve
     ```
 
-2. 进入 daxigua 目录，运行 serve：
+2.  enter into game folder ，run serve：
 
     ```bash
     serve
     ```
    
-3. 打开浏览器访问 localhost:5000 即可！
+3. Open the browser to visit localhost:5000, and it's done！
 
-### 快速魔改
+### Personalisation
 
-> 按照下列说明修改即可，持续补充
+> Follow the instructions below to modify 
 
-1. 改分数：改 extraSettings.js 文件
+1. Modify note：Modify extraSettings.js
 
-2. 改图片：替换 res/raw-assets 目录下指定目录的图片，必须同文件名、后缀、尺寸，成功覆盖可生效，[可替换素材文档](https://docs.qq.com/sheet/DS0d2VVVJYmpvZ0pZ)
+2. Modify Pictures：Replace the resources in folder: res/raw-assets. The pictures in the specified directory must have the same file name, suffix, and size. Successful overwriting can take effect. [可替换素材文档](https://docs.qq.com/sheet/DS0d2VVVJYmpvZ0pZ)
 
 3. 无敌模式：改 extraSettings.js 文件
 
@@ -50,12 +50,6 @@
 
 14. 开启选分弹窗：改 extraSettings.js 文件
 
-
-### 魔改原理
-
-请先阅读：[魔改和上线你的合成大西瓜，最全教程！](https://mp.weixin.qq.com/s/H9VR1MWn-9bKSC_1l_MkJw)
-
-我给 `project.js` 文件补充了注释，大家可以搜索关键字，如 "改分" 来快速定位，学习修改原理。
 
 ### 问题及解决
 
